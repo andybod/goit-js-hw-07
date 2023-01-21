@@ -37,7 +37,7 @@ function openModalItemGallery(evt) {
       onShow: () => {
         document.addEventListener("keydown", OnEscKeyPress);
       },
-      onclose: () => {
+      onClose: () => {
         document.removeEventListener("keydown", OnEscKeyPress);
       },
     }
